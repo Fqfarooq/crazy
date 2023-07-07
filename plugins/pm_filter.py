@@ -692,7 +692,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🍂 ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ", url=f"https://telegram.me/LazyDeveloperSupport")
             ],[
-                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro")
+                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro')
 
             ]]
             btn_lzdv = [
@@ -720,7 +720,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🍂 ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ", url=f"https://telegram.me/LazyDeveloperSupport")
             ],[
-                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro")
+                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro')
             ]]
             btn_lzdv = [
                 [
@@ -746,7 +746,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(text=f"🍂 ʀᴇᴘᴏʀᴛ ʜᴇʀᴇ", url=f"https://telegram.me/LazyDeveloperSupport")
             ],[
-                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro")
+                InlineKeyboardButton(text=f"✉ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Movies_Updates_pro')
 
             ]]
             btn_lzdv = [
