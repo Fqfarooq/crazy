@@ -50,7 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌛ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('⌛ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Movies_Updates_pro')
             ],[
             InlineKeyboardButton('🌟 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('♻ ᴀʙᴏᴜᴛ', callback_data='about')
@@ -103,7 +103,7 @@ async def start(client, message):
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('⌛ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/LazyDeveloper')
+            InlineKeyboardButton('⌛ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/Movies_Updates_pro')
             ],[
             InlineKeyboardButton('🌟 ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('♻ ᴀʙᴏᴜᴛ', callback_data='about')
@@ -374,7 +374,7 @@ async def delete_all_index(bot, message):
 @Client.on_callback_query(filters.regex(r'^autofilter_delete'))
 async def delete_all_index_confirm(bot, message):
     await Media.collection.drop()
-    await message.answer('♥️ Thank You LazyDeveloper ♥️')
+    await message.answer('♥️')
     await message.message.edit('Succesfully Deleted All The Indexed Files.')
 
 
