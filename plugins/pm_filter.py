@@ -875,10 +875,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.STATUS_TXT.format(total, users, chats, monsize, free),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
-      elif query.data == "whyjoin":
-        await query.answer(text=script.WHYJOIN, show_alert=True)
-	      
+        )	      
     # elif query.data == "getlazythumbnail":
     #     buttons = [
     #         [
