@@ -16,9 +16,14 @@ Thanks for thinking about us.\nIt seems that you really love <a href=https://t.m
 \nʏᴏᴜ ᴍᴜꜱᴛ ʜᴀᴠᴇ ᴛᴏ ʙᴇ ᴛʜᴇ ᴀᴜᴛʜᴇɴᴛɪᴄ ᴜꜱᴇʀ ᴛᴏ ᴄᴏᴍᴘʟᴇᴛᴇ ᴛʜɪꜱ ᴏᴘᴇʀᴀᴛɪᴏɴ...\n\n👮‍♀ ʀᴇᴘᴏʀᴛ ɪꜱꜱᴜᴇ ʜᴇʀᴇ: <a href=https://t.me/developer_King>ᴛʜɪs ᴘᴇʀsᴏɴ</a>\n\n
     """
     ALRDY_UPLDD_TEXT = """✅ 🇨​​🇴​​🇳​​🇹​​🇪​​🇳​​🇹​ ​🇮​​🇸​ ​🇦​​🇱​​🇷​​🇪​​🇦​​🇩​​🇾​ ​🇺​​🇵​​🇱​​🇴​​🇦​​🇩​​🇪​​🇩​.\n\nName:{}\nᴘʟᴇᴀꜱᴇ ᴍᴀᴋᴇ ꜱᴜʀᴇ ᴀʙᴏᴜᴛ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ʙᴇꜰᴏʀᴇ ꜱᴜʙᴍɪᴛɪɴɢ ʀᴇQᴜᴇꜱᴛ..."""
-    HELP_TXT = """𝙷𝙴𝚈 {}
-Here is the help for my COMMANDS."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+    HELP_TXT = """<b>ʜᴇy {}
+
+ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ."""
+    WHYJOIN = """
+ʜᴇʏ ʙʀᴏ 🥶
+
+ɴᴏᴡ ɪᴛs ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ᴋᴇᴇᴘ sᴜᴘᴘᴏʀᴛ. ᴀᴅᴅ ɪᴛ sᴏᴏɴ​ ❤️"""
+    ABOUT_TXT = """‣ ᴍʏ ɴᴀᴍᴇ: {}
 ‣ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/developer_King>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ‣ ʟɪʙʀᴀʀʏ: ᴘʏʀᴏɢʀᴀᴍ
 ‣ ʟᴀɴɢᴜᴀɢᴇ: ᴘʏᴛʜᴏɴ 3
