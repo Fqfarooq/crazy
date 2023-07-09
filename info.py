@@ -26,7 +26,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1134224041').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL','-1001677339305 -1001547709050')
+auth_channel = environ.get('AUTH_CHANNEL','-1001677339305')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else True
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -39,10 +39,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n\n<b>➥ 𝒇𝒊𝒍𝒆 𝒏𝒂𝒎𝒆 -: </b><i>{file_name}</i>\n<b>➥ 𝒇𝒊𝒍𝒆 𝒔𝒊𝒛𝒆: </b><i>{file_size}</i>\n\n≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n🌿 [👉 New Movies Channel Join 👈](https://t.me/Movies_Updates_pro)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n\n<b>➥ 𝒇𝒊𝒍𝒆 𝒏𝒂𝒎𝒆 -: </b><i>{file_name}</i>\n<b>➥ 𝒇𝒊𝒍𝒆 𝒔𝒊𝒛𝒆: </b><i>{file_size}</i>\n\n≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n🌿 [👉New Movies Channel Join👈](https://t.me/Movies_Updates_pro)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>△ ʏᴏᴜʀ Qᴜᴇʀʏ: {query}</b>\n\n🦢 <a href={url}>{title}</a>\n● ɢᴇɴʀᴇꜱ: {genres}\n📅: <a href={url}/releaseinfo>{year}</a>\n⭐ ʀᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10 \n📖ꜱᴛᴏʀʏ : {plot}\n\n⚠️ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ 👇 ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ Qᴜᴇʀʏ ᴘʀɪᴠᴀᴛᴇʟʏ</b>")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
