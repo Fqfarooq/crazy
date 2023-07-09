@@ -79,7 +79,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 Must Join Channel 🦋", url=invite_link.invite_link
+                    "🦋 Must Join Channel 🦋", url=https://t.me/Telugu_Gadget_Review'
                 )
             ]
         ]
