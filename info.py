@@ -39,7 +39,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'LazyDeveloper')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n\n<b>➥ 𝒇𝒊𝒍𝒆 𝒏𝒂𝒎𝒆 -: </b><i>{file_name}</i>\n<b>➥ 𝒇𝒊𝒍𝒆 𝒔𝒊𝒛𝒆: </b><i>{file_size}</i>\n\n≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍≍\n🌿 [👉New Movies Channel Join👈](https://t.me/Movies_Updates_pro)</b>")
